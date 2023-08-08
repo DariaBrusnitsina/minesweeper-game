@@ -1,0 +1,43 @@
+.board {
+  height: 0;
+  width: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background: #b4b5b6;
+  margin-bottom: 10px;
+
+  div {
+    height: 40px;
+    width: 40px;
+    border: 1px solid rgb(255, 255, 255);
+
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    box-sizing: border-box;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+.checked {
+  background-color: #e8e8e8;
+}
+
+.one {
+  color: #45b847;
+}
+
+.two {
+  color: #357aa8;
+}
+
+.three {
+  color:#7f2e90;
+}
+
+.four{
+  color:#c04b31;
+}

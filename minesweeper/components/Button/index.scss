@@ -1,0 +1,18 @@
+.button_light {
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  background: white;
+  border: 1.5px solid #5F568F;
+  color: #5F568F;
+  border-radius: 5px;
+  padding: 10px;
+  white-space: nowrap;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    cursor: pointer;
+    background: #5F568F;
+    transition: all 0.2s ease-in-out;
+    color: white;
+  }
+}
